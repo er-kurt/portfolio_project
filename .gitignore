@@ -1,1 +1,28 @@
-data.txt
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.ruff_cache/
+
+# Daten und Modelle – bleiben nur lokal
+data/
+models/
+*.csv
+*.zip
+*.joblib
+*.pt
+*.bin
+*.safetensors
+
+# Geheimnisse – NIEMALS auf GitHub
+.env
+.env.*
+!.env.example
+kaggle.json
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# macOS
+.DS_Store
