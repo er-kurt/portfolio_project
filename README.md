@@ -16,8 +16,9 @@
 - [ ] noch offen
 
 > Zitat
->
-> Toxic Comments Classification
+
+
+Toxic Comments Classification
 
 A data science project that classifies comments from different data sources as toxic or non-toxic (and optionally into toxicity subcategories). The final result is a Streamlit app with a text box where users can enter a comment and instantly see the model's prediction.
 
