@@ -7,6 +7,7 @@ import pandas as pd
 # Project root, independent of where a notebook or script is started from
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = PROJECT_ROOT / "data"
+MODELS_DIR = PROJECT_ROOT / "models"
 
 # severe_toxicity is not used (only 13 majority cases in the full dataset)
 LABELS = ["toxicity", "obscene", "threat", "insult", "identity_attack", "sexual_explicit"]
